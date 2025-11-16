@@ -1,0 +1,12 @@
+[
+  {
+    "login_email": "ledrisayo@necub.com",
+    "first_name": "John",
+    "last_name": "Doe",
+    "street": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "country": "United States",
+    "post_code": "12345"
+  }
+]

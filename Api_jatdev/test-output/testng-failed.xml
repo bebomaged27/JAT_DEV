@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [ReqRes API Test Suite]">
+  <test thread-count="2" parallel="tests" name="User Creation Tests(failed)">
+    <classes>
+      <class name="tests.UserCreationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="setUpSuite"/>
+          <include name="testCreateUser"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- tests.UserCreationTest -->
+    </classes>
+  </test> <!-- User Creation Tests(failed) -->
+  <test thread-count="2" parallel="tests" name="User Lifecycle Tests(failed)">
+    <classes>
+      <class name="tests.UserLifecycleTest">
+        <methods>
+          <include name="testUserLifecycle"/>
+          <include name="tearDownTest"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- tests.UserLifecycleTest -->
+    </classes>
+  </test> <!-- User Lifecycle Tests(failed) -->
+</suite> <!-- Failed suite [ReqRes API Test Suite] -->

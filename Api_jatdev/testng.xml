@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ReqRes API Test Suite" parallel="tests" thread-count="2">
+    <test name="User Creation Tests">
+        <classes>
+            <class name="tests.UserCreationTest"/>
+        </classes>
+    </test>
+
+    <test name="User Lifecycle Tests">
+        <classes>
+            <class name="tests.UserLifecycleTest"/>
+        </classes>
+    </test>
+</suite>
